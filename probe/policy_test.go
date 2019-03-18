@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/troubling/hummingbird/common"
+	"github.com/RocFang/hummingbird/common"
 )
 
 func TestPolicySeparate(t *testing.T) {

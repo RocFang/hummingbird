@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/common/test"
 )
 
 func newRequest(method, path string) *http.Request {

@@ -21,8 +21,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/fs"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/fs"
 )
 
 func TestAuditorMd5(t *testing.T) {

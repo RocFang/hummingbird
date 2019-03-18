@@ -27,11 +27,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/troubling/hummingbird/client"
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/common/tracing"
+	"github.com/RocFang/hummingbird/client"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/tracing"
 	"github.com/uber-go/tally"
 	"go.uber.org/zap"
 )

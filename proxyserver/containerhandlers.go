@@ -20,9 +20,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/proxyserver/middleware"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/proxyserver/middleware"
 )
 
 var listingQueryParms = map[string]bool{

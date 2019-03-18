@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/troubling/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/conf"
 )
 
 func TestObjectEngineRegistry(t *testing.T) {

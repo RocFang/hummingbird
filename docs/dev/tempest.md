@@ -4,7 +4,7 @@ Running tempest against HAIO
 Quick instructions
 
 ```
-wget https://github.com/troubling/hummingbird/releases/download/v1.2.0/hummingbird
+wget https://github.com/RocFang/hummingbird/releases/download/v1.2.0/hummingbird
 chmod +x hummingbird
 ./hummingbird init haio
 ./hummingbird-init-haio.sh

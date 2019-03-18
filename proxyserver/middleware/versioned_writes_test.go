@@ -30,10 +30,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/troubling/hummingbird/client"
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/client"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/test"
 )
 
 var deleteMarkerRegex = regexp.MustCompile(`/v1/a/c_v/001o/\d{10}\.\d{5}`)

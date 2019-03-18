@@ -22,7 +22,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/troubling/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/ring"
 )
 
 // a place for utility functions and interface satisifiers that are used across tests

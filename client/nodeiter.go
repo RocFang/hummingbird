@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/troubling/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/ring"
 )
 
 type ringFilter interface {

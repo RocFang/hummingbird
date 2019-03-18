@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
+	"github.com/RocFang/hummingbird/common"
 	"github.com/troubling/nectar"
 )
 

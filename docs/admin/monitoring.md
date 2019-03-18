@@ -139,4 +139,4 @@ Each hummingbird service expose its metrics using separate prefix(hb_<service-ty
 
 # Prometheus, Grafana & Alertmanager Installation.
 
-You can follow <https://github.com/troubling/hummingbird-monitoring/blob/master/README.md> to setup Hummingbird monitoring using Docker.
+You can follow <https://github.com/RocFang/hummingbird-monitoring/blob/master/README.md> to setup Hummingbird monitoring using Docker.

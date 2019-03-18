@@ -23,9 +23,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/uber-go/tally"
 )
 

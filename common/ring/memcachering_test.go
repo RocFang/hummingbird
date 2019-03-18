@@ -29,7 +29,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/troubling/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/conf"
 	ini "github.com/vaughan0/go-ini"
 )
 

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/troubling/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/conf"
 )
 
 var DB_NAME = "andrewd.db"

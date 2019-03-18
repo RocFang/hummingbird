@@ -18,8 +18,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/uber-go/tally"
 	"go.uber.org/zap"
 )

@@ -22,10 +22,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/containerserver"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/containerserver"
 	"github.com/uber-go/tally"
 	"go.uber.org/zap"
 )

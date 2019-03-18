@@ -30,12 +30,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/fs"
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/middleware"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/fs"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/middleware"
 	"go.uber.org/zap"
 )
 

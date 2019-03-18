@@ -29,10 +29,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/troubling/hummingbird/client"
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/tracing"
+	"github.com/RocFang/hummingbird/client"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/tracing"
 	"go.uber.org/zap"
 	"golang.org/x/net/http2"
 )

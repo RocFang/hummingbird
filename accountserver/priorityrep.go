@@ -1,8 +1,8 @@
 package accountserver
 
 import (
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/ring"
 )
 
 type PriorityRepJob struct {

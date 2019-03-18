@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/ring"
 )
 
 var partitionListCap = 4

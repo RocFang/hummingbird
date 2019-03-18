@@ -19,9 +19,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/troubling/hummingbird/accountserver"
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/accountserver"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/ring"
 	"github.com/uber-go/tally"
 	"go.uber.org/zap"
 )

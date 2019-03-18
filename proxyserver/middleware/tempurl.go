@@ -25,9 +25,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/uber-go/tally"
 )
 

@@ -8,7 +8,7 @@ You may want to setup sudo to allow you to switch without entering a password; l
 echo "$USER ALL=(ALL) NOPASSWD: ALL" | sudo tee -a /etc/sudoers
 ```
 
-Once done, the `hummingbird-init-haio.sh` will have placed all the Hummingbird code at ~/go/src/github.com/troubling/hummingbird -- the git origin remote will be set to the official fork. You can patch this up with `git remote set-url origin git@github.com:YOU/hummingbird` and perhaps add `git remote add upstream git@github.com:troubling/hummingbird` if desired.
+Once done, the `hummingbird-init-haio.sh` will have placed all the Hummingbird code at ~/go/src/github.com/RocFang/hummingbird -- the git origin remote will be set to the official fork. You can patch this up with `git remote set-url origin git@github.com:YOU/hummingbird` and perhaps add `git remote add upstream git@github.com:troubling/hummingbird` if desired.
 
 A normal development loop would be to write code and then:
 

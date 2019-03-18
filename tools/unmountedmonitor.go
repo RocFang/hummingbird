@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/troubling/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/ring"
 	"github.com/uber-go/tally"
 	"go.uber.org/zap"
 )

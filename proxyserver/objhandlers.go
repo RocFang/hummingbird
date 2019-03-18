@@ -23,10 +23,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/troubling/hummingbird/client"
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/proxyserver/middleware"
+	"github.com/RocFang/hummingbird/client"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/proxyserver/middleware"
 )
 
 func (server *ProxyServer) ObjectGetHandler(writer http.ResponseWriter, request *http.Request) {

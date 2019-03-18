@@ -25,7 +25,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/common/test"
 )
 
 func TestAccountUpdate(t *testing.T) {

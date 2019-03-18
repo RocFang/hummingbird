@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/common/tracing"
-	"github.com/troubling/hummingbird/middleware"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/tracing"
+	"github.com/RocFang/hummingbird/middleware"
 	"go.uber.org/zap"
 )
 

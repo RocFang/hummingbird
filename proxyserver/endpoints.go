@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/proxyserver/middleware"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/proxyserver/middleware"
 	"go.uber.org/zap"
 )
 

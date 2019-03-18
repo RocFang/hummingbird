@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/troubling/hummingbird/common/fs"
+	"github.com/RocFang/hummingbird/common/fs"
 )
 
 func TestSwiftObjectRoundtrip(t *testing.T) {

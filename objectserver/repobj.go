@@ -12,9 +12,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/fs"
-	"github.com/troubling/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/fs"
+	"github.com/RocFang/hummingbird/common/ring"
 )
 
 var _ Object = &repObject{}

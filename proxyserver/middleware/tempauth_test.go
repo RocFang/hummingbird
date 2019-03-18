@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/common/test"
 )
 
 func TestGetUserGroups(t *testing.T) {

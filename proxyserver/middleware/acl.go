@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/troubling/hummingbird/common"
+	"github.com/RocFang/hummingbird/common"
 )
 
 // Returns a cleaned ACL header value, validating that it meets the formatting

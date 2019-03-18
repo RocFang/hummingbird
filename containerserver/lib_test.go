@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"sync/atomic"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

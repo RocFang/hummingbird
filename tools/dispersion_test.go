@@ -12,10 +12,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/troubling/hummingbird/accountserver"
-	"github.com/troubling/hummingbird/client"
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/containerserver"
+	"github.com/RocFang/hummingbird/accountserver"
+	"github.com/RocFang/hummingbird/client"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/containerserver"
 	"github.com/troubling/nectar/nectarutil"
 )
 

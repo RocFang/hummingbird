@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/troubling/hummingbird/common"
+	"github.com/RocFang/hummingbird/common"
 )
 
 func OptionsHandler(serverType string, writer http.ResponseWriter, request *http.Request) {

@@ -55,11 +55,11 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/troubling/hummingbird/accountserver"
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/containerserver"
+	"github.com/RocFang/hummingbird/accountserver"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/containerserver"
 	"github.com/uber-go/tally"
 )
 

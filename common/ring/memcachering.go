@@ -31,8 +31,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
 
 	opentracing "github.com/opentracing/opentracing-go"
 )

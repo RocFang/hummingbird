@@ -6,7 +6,7 @@ import (
 	"os/user"
 	"strings"
 
-	"github.com/troubling/hummingbird/common"
+	"github.com/RocFang/hummingbird/common"
 )
 
 func initCommand(args []string) error {
@@ -77,12 +77,12 @@ func initCommand(args []string) error {
 		print(`export PATH=$PATH:/usr/local/go/bin`)
 		print(`grep -q /usr/local/go/bin /etc/profile || echo 'export PATH=$PATH:/usr/local/go/bin' | sudo tee -a /etc/profile`)
 		print(`echo "Retrieving sources; this may take a while..."`)
-		print(`go get -t github.com/troubling/hummingbird/...`)
+		print(`go get -t github.com/RocFang/hummingbird/...`)
 		print(`gopath=` + "`" + `go env | grep ^GOPATH= | cut -d '"' -f2` + "`")
-		print(`pushd "${gopath}/src/github.com/troubling/hummingbird"`)
+		print(`pushd "${gopath}/src/github.com/RocFang/hummingbird"`)
 		print(`make haio`)
 		print(`popd`)
-		print(`binpath=${gopath}/src/github.com/troubling/hummingbird/bin/hummingbird`)
+		print(`binpath=${gopath}/src/github.com/RocFang/hummingbird/bin/hummingbird`)
 	case "deb":
 		prefix = "build"
 		usrDirName = "usr"
@@ -679,7 +679,7 @@ func initCommand(args []string) error {
 		print(`#!/bin/bash`)
 		print(``)
 		print(`cd ~/swift/test/functional`)
-		print("nosetests --exclude-test-file=`go env GOPATH`/src/github.com/troubling/hummingbird/.swift_func_excludes")
+		print("nosetests --exclude-test-file=`go env GOPATH`/src/github.com/RocFang/hummingbird/.swift_func_excludes")
 		print(`EOF`)
 		print(`sudo chmod 0755 %s/%s/bin/hbswifttests`, prefix, usrDirName)
 		print(``)
@@ -787,7 +787,7 @@ func initCommand(args []string) error {
 		print(`if [ "$1" != "skiptests" ] ; then`)
 		print(`export BOTO_CONFIG=/dev/null`)
 		print(`pushd ~/swift/test/functional`)
-		print(`nosetests --exclude-test-file "${gopath}/src/github.com/troubling/hummingbird/.swift_func_excludes"`)
+		print(`nosetests --exclude-test-file "${gopath}/src/github.com/RocFang/hummingbird/.swift_func_excludes"`)
 		print(`popd`)
 		print(`fi`)
 		print(`hbmain stop`)
@@ -809,7 +809,7 @@ func initCommand(args []string) error {
 		print(`# `)
 		print(`# source /etc/profile`)
 		print(`# `)
-		print(`# See https://github.com/troubling/hummingbird/blob/master/HAIO.md for more info.`)
+		print(`# See https://github.com/RocFang/hummingbird/blob/master/HAIO.md for more info.`)
 		print(``)
 	default:
 		print(`tail -17 $0 | cut -f2- -d ' '`)

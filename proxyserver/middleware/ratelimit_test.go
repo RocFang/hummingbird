@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/common/test"
 )
 
 var now = 10 * nsPerSecond

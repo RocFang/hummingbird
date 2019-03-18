@@ -18,7 +18,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/troubling/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/srv"
 )
 
 func ValidateRequest(next http.Handler) http.Handler {

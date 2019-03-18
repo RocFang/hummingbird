@@ -22,8 +22,8 @@ import (
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go/config"
 
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/srv"
 )
 
 // Init creates a new instance of Jaeger tracer.

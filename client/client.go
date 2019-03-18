@@ -6,8 +6,8 @@ import (
 
 	"context"
 
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/srv"
 )
 
 // RequestClient is similar to github.com/troubling/nectar.Client, but its calls accept a context and it is scoped to a specific API request.

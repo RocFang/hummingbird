@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/troubling/hummingbird/client"
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/client"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/srv"
 	"go.uber.org/zap"
 )
 

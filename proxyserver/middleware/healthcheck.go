@@ -18,7 +18,7 @@ package middleware
 import (
 	"net/http"
 
-	"github.com/troubling/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/uber-go/tally"
 )
 

@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/dsnet/compress/bzip2"
-	"github.com/troubling/hummingbird/common"
+	"github.com/RocFang/hummingbird/common"
 )
 
 func TestBulkPutTar(t *testing.T) {

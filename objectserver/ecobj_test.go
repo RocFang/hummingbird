@@ -32,8 +32,8 @@ import (
 	"go.uber.org/zap"
 
 	"github.com/stretchr/testify/require"
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/test"
 )
 
 func TestNurseryReplicate(t *testing.T) {

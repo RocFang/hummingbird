@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/test"
 )
 
 func TestServerReplicateSync(t *testing.T) {

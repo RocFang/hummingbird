@@ -28,7 +28,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/troubling/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/troubling/nectar"
 )
 

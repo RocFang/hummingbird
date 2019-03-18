@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/fs"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/fs"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

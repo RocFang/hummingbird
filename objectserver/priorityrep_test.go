@@ -26,9 +26,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/test"
 
 	"github.com/stretchr/testify/require"
 )

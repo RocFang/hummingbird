@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/ring"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/common/tracing"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/tracing"
 	"github.com/troubling/nectar/nectarutil"
 	"go.uber.org/zap"
 )

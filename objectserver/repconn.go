@@ -28,8 +28,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/ring"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/ring"
 )
 
 var RepUnmountedError = fmt.Errorf("Device unmounted")

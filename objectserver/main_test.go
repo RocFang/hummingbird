@@ -33,11 +33,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/troubling/hummingbird/common"
-	"github.com/troubling/hummingbird/common/conf"
-	"github.com/troubling/hummingbird/common/pickle"
-	"github.com/troubling/hummingbird/common/srv"
-	"github.com/troubling/hummingbird/common/test"
+	"github.com/RocFang/hummingbird/common"
+	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/RocFang/hummingbird/common/pickle"
+	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/RocFang/hummingbird/common/test"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
