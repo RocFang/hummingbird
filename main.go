@@ -1,7 +1,7 @@
 package main
 
-import "github.com/RocFang/hummingbird/cmd/hummingbird"
+import "github.com/RocFang/hummingbird/cmd"
 
 func main() {
-	cmd.hummingbird.Main()
+	cmd.Main()
 }
