@@ -324,7 +324,7 @@ func quarantineCounts(driveRoot string) (map[string]interface{}, error) {
 						pIndex = qarr[1]
 					}
 					if _, err := strconv.ParseInt(pIndex, 10, 64); err == nil {
-						cnt := stat.Sys().(*syscall.Stat_t).Nlink - 2
+						cnt := uint64(stat.Sys().(*syscall.Stat_t).Nlink - 2)
 						policyDict[pIndex] = map[string]uint64{
 							"objects": cnt}
 						oCnt += cnt
