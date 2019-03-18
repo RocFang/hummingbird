@@ -157,7 +157,7 @@ func (ud *updateDevice) reconReportAsync() {
 			continue
 		}
 		if stat.Nlink > 1 {
-			cnt += stat.Nlink - 1
+			cnt += uint64(stat.Nlink) - 1
 		}
 	}
 	if err := middleware.DumpReconCache(ud.r.reconCachePath, "object",
