@@ -13,7 +13,7 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 
-package main
+package hummingbird
 
 import (
 	"errors"
@@ -233,7 +233,7 @@ func init() {
 	rand.Seed(time.Now().UTC().UnixNano())
 }
 
-func main() {
+func Main() {
 	proxyFlags := flag.NewFlagSet("proxy server", flag.ExitOnError)
 	proxyFlags.String("c", findConfig("proxy"), "Config file/directory to use")
 	proxyFlags.String("l", "stdout", "Log location")
