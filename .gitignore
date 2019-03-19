@@ -16,8 +16,5 @@
 # vim
 *.sw?
 
-#Hummingbird related build directory
-bin
-
 #Ide related directory
 .idea
