@@ -1,16 +1,12 @@
 HUMMINGBIRD_VERSION?=$(shell git describe --tags)
 HUMMINGBIRD_VERSION_NO_V?=$(shell git describe --tags | cut -d v -f 2)
 
-all: bin/hummingbird
+all: hummingbird
 
-.PHONY: bin/hummingbird
+.PHONY: hummingbird
 
-bin/hummingbird:
-	mkdir -p bin
-	go build -o bin/hummingbird -ldflags "-X github.com/RocFang/hummingbird/common.Version=$(HUMMINGBIRD_VERSION)" github.com/RocFang/hummingbird/cmd/hummingbird
-
-get:
-	go get -u -t $(shell go list ./... | grep -v /vendor/)
+hummingbird:
+	go build -ldflags "-X github.com/RocFang/hummingbird/common.Version=$(HUMMINGBIRD_VERSION)"
 
 fmt:
 	gofmt -l -w -s $(shell find . -mindepth 1 -maxdepth 1 -type d -print | grep -v vendor)
