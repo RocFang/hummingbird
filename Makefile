@@ -18,12 +18,3 @@ test:
 
 functional-test:
 	$(MAKE) -C functional
-
-clean:
-	rm -rf bin
-
-haio: all
-	if hash hball 2>/dev/null ; then hball stop ; fi
-	sudo rm -f /usr/local/bin/hummingbird
-	sudo cp bin/hummingbird /usr/local/bin/hummingbird
-	sudo chmod 0755 /usr/local/bin/hummingbird
