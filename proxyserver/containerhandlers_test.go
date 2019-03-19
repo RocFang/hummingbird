@@ -24,12 +24,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/client"
 	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/RocFang/hummingbird/common/test"
 	"github.com/RocFang/hummingbird/proxyserver/middleware"
+	"github.com/stretchr/testify/require"
 )
 
 var staticPolicyList = conf.PolicyList(map[int]*conf.Policy{

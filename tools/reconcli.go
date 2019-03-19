@@ -27,12 +27,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/gholt/brimtext"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/RocFang/hummingbird/common/ring"
 	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/RocFang/hummingbird/objectserver"
+	"github.com/gholt/brimtext"
 	"golang.org/x/net/http2"
 )
 

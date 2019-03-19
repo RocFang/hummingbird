@@ -25,7 +25,6 @@ import (
 	"sync"
 	"time"
 
-	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/RocFang/hummingbird/client"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/conf"
@@ -33,6 +32,7 @@ import (
 	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/RocFang/hummingbird/common/tracing"
 	"github.com/RocFang/hummingbird/middleware"
+	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/uber-go/tally"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

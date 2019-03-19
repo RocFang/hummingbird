@@ -20,9 +20,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/client"
 	"github.com/RocFang/hummingbird/common/test"
+	"github.com/stretchr/testify/require"
 )
 
 func TestHandleCorsStar(t *testing.T) {

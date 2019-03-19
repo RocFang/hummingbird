@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	_ "github.com/mattn/go-sqlite3"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/fs"
 	"github.com/RocFang/hummingbird/common/srv"
+	_ "github.com/mattn/go-sqlite3"
 	"go.uber.org/zap"
 )
 

@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

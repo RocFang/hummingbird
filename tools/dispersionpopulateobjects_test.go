@@ -3,10 +3,10 @@ package tools
 import (
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

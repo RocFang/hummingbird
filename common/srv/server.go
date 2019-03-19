@@ -36,11 +36,11 @@ import (
 	"time"
 	"unicode/utf8"
 
-	opentracing "github.com/opentracing/opentracing-go"
-	"github.com/opentracing/opentracing-go/ext"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/RocFang/hummingbird/common/ring"
+	opentracing "github.com/opentracing/opentracing-go"
+	"github.com/opentracing/opentracing-go/ext"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"golang.org/x/net/http2"

@@ -20,8 +20,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common/conf"
+	"github.com/stretchr/testify/require"
 )
 
 func TestObjectEngineRegistry(t *testing.T) {

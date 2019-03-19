@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/RocFang/hummingbird/common"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestAuditReplicate(t *testing.T) {

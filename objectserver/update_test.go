@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common/fs"
 	"github.com/RocFang/hummingbird/common/pickle"
 	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/RocFang/hummingbird/common/test"
+	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )
 

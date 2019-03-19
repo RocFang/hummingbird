@@ -47,8 +47,6 @@ import (
 
 	"golang.org/x/net/http2"
 
-	"github.com/justinas/alice"
-	"github.com/prometheus/client_golang/prometheus"
 	"github.com/RocFang/hummingbird/client"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/conf"
@@ -57,6 +55,8 @@ import (
 	"github.com/RocFang/hummingbird/common/tracing"
 	"github.com/RocFang/hummingbird/middleware"
 	"github.com/RocFang/hummingbird/objectserver"
+	"github.com/justinas/alice"
+	"github.com/prometheus/client_golang/prometheus"
 	"github.com/uber-go/tally"
 	promreporter "github.com/uber-go/tally/prometheus"
 	"go.uber.org/zap"

@@ -35,10 +35,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/mattn/go-sqlite3"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/fs"
 	"github.com/RocFang/hummingbird/common/pickle"
+	"github.com/mattn/go-sqlite3"
 )
 
 const (

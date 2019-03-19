@@ -25,7 +25,6 @@ import (
 	"strings"
 	"time"
 
-	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/RocFang/hummingbird/client"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/conf"
@@ -34,6 +33,7 @@ import (
 	"github.com/RocFang/hummingbird/common/tracing"
 	globalmiddleware "github.com/RocFang/hummingbird/middleware"
 	"github.com/RocFang/hummingbird/proxyserver/middleware"
+	opentracing "github.com/opentracing/opentracing-go"
 
 	"github.com/justinas/alice"
 	"github.com/prometheus/client_golang/prometheus"

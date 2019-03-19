@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/RocFang/hummingbird/common/srv"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/ext"
-	"github.com/RocFang/hummingbird/common/srv"
 	"go.uber.org/zap"
 )
 

@@ -27,9 +27,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common/ring"
 	"github.com/RocFang/hummingbird/common/test"
+	"github.com/stretchr/testify/require"
 )
 
 func TestReplicateStabilizeDeletion(t *testing.T) {

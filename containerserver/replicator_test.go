@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/RocFang/hummingbird/common/fs"
 	"github.com/RocFang/hummingbird/common/ring"
 	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/RocFang/hummingbird/common/test"
+	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"

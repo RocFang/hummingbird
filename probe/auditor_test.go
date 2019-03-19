@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/fs"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestAuditorMd5(t *testing.T) {

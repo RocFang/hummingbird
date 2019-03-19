@@ -8,8 +8,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common/fs"
+	"github.com/stretchr/testify/require"
 )
 
 func TestSwiftObjectRoundtrip(t *testing.T) {

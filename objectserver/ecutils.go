@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/klauspost/reedsolomon"
 	"github.com/RocFang/hummingbird/common/srv"
+	"github.com/klauspost/reedsolomon"
 	"go.uber.org/zap"
 )
 

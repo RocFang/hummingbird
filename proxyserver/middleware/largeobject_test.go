@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common"
+	"github.com/stretchr/testify/require"
 )
 
 var simplePutManifest = `[{"path":"/hat/a"},{"size_bytes":3,"path":"/hat/b"},{"etag":"68053af2923e00204c3ca7c6a3150cf7","size_bytes":3,"path":"hat/c"}]`

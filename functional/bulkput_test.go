@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dsnet/compress/bzip2"
 	"github.com/RocFang/hummingbird/common"
+	"github.com/dsnet/compress/bzip2"
 )
 
 func TestBulkPutTar(t *testing.T) {

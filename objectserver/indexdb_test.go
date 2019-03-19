@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/fs"
+	"github.com/stretchr/testify/require"
 
 	"go.uber.org/zap"
 )

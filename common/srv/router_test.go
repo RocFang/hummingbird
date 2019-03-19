@@ -19,8 +19,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/RocFang/hummingbird/common/test"
+	"github.com/stretchr/testify/assert"
 )
 
 func newRequest(method, path string) *http.Request {

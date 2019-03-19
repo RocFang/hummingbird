@@ -20,8 +20,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common"
+	"github.com/stretchr/testify/require"
 )
 
 func TestPolicySeparate(t *testing.T) {

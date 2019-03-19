@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/RocFang/hummingbird/common"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestReplicationHandoff(t *testing.T) {

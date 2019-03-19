@@ -27,9 +27,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/RocFang/hummingbird/common/srv"
 )
 
 func TestDumpReconCache(t *testing.T) {

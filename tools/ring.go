@@ -25,8 +25,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gholt/brimtext"
 	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/gholt/brimtext"
 )
 
 func PrintDevs(devs []*ring.RingBuilderDevice) {

@@ -27,8 +27,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/justinas/alice"
-	"github.com/prometheus/client_golang/prometheus"
 	"github.com/RocFang/hummingbird/common"
 	"github.com/RocFang/hummingbird/common/conf"
 	"github.com/RocFang/hummingbird/common/fs"
@@ -36,6 +34,8 @@ import (
 	"github.com/RocFang/hummingbird/common/ring"
 	"github.com/RocFang/hummingbird/common/srv"
 	"github.com/RocFang/hummingbird/middleware"
+	"github.com/justinas/alice"
+	"github.com/prometheus/client_golang/prometheus"
 	"github.com/uber-go/tally"
 	promreporter "github.com/uber-go/tally/prometheus"
 	"go.uber.org/zap"

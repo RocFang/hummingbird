@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/RocFang/hummingbird/common/test"
+	"github.com/stretchr/testify/assert"
 )
 
 var now = 10 * nsPerSecond

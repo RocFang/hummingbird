@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stretchr/testify/require"
 	"github.com/RocFang/hummingbird/common/ring"
+	"github.com/stretchr/testify/require"
 )
 
 func TestAddUpdateHeaders(t *testing.T) {
